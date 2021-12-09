@@ -1,4 +1,4 @@
-<img src="https://ibb.co/BCyLBwW" />
+<img src="screenshot.jpg" />
 
 # SaasApp
 
