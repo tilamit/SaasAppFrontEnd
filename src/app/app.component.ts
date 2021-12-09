@@ -44,7 +44,7 @@ export class AppComponent {
       obj.UserType = "Free Trial";
     }
 
-    alert('Id: ' + id + ' DbName: ' + dbName + ' User Type: ' + userType + ' Status: ' + event.target.checked);
+    alert('Status changed successfully! Please wait to update.');
     console.log(obj);
 
     this.userservice.ChangeStaus(obj).subscribe(res => {
@@ -94,7 +94,7 @@ export class AppComponent {
         console.log("Details", obj);
       });
 
-      alert(name + ' ' + email + ' ' + address + ' ' + userType);
+      alert('User added successfully! Please refresh web page.');
       this.GetUsers();
     }
   }
