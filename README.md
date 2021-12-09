@@ -1,4 +1,4 @@
-<img src="screenshot.jpg">
+<img src="https://github.com/tilamit/SaasAppFrontEnd/blob/master/screenshot.png" />
 
 # SaasApp
 
